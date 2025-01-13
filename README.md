@@ -48,6 +48,14 @@ Classes and Functionality:
   printItems(): Prints details of all items in the shop.
   removeItem(s): Removes an item from the shop by name.
 
+Main Program:
+The main() function simulates a simple shopping experience:
+
+Creates an array of items consisting of product, bulk, discountedProduct, service, subscription, and labor.
+Prints details of each item.
+Simulates purchasing the items with different quantities and time periods.
+Frees dynamically allocated memory by deleting the items and the item array.
+
 Compilation and Running:
 Prerequisites:
   A C++ compiler (e.g., GCC or Clang).
